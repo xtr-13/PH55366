@@ -1,0 +1,29 @@
+/*h3{
+    font-size: 40px;  
+}
+*/
+.a {
+    font-size: 40px;
+}
+#x {
+    color: red;
+}
+p{
+    font-weight: 300;
+    text-align: center;
+}
+a{
+    text-decoration: overline;
+
+}
+.y{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 40px;
+
+
+}
+.tieude5{
+    color: red;
+}
+

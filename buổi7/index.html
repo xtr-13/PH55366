@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <label for="hoten">Họ và Tên</label>
+        <input type="text"name ="hoten" id="hoten" placeholder="Hà Xuân Trường"
+        readonly
+        disabled
+        />
+        <br>
+      
+            <label for="pass">Nhập mật khẩu đi dmm</label>
+            <input type="password"name ="pass" id="pass" placeholder="có biết pass lồn đâu mà oai :v"
+            />
+            <br>
+           
+                <label for="anh">Tải File</label>
+                <input type="file"name ="ảnh" id="anh">
+                <br>
+                <form action="" method="get" enctype="multipart/form-data">
+                    <label for="">bắc có mấy chân: </label>
+                    <input type="radio" name="sochan" value="1"/> 1chan <br>
+                    <input type="radio" name="sochan" value="2"/> 2chan <br>
+                    <input type="radio" name="sochan" value="3"/> 3chan <br>
+                    <input type="radio" name="sochan" value="4"/> 4chan <br>
+ </form>
+ <form action="" method="get" enctype="multipart/form-data">
+    <label for=""> sở thích của chị my: </label> <br>
+    <input type="checkbox" name="gai" value="1"/> ăn cứt <br>
+    <input type="checkbox" name="gai" value="2"/> ngủ <br>
+    <input type="checkbox" name="gai" value="3"/> cũng là ngủ nhưng mà dòng thứ 3 <br>
+<br>    <input type="checkbox" name="gai" value="4"/> kebbwekj
+    <br>
+    <input type="hidden" name="dulieuan" value="1234">
+    <br>
+  <input id="btn" type="button" value="Button">
+  <input id="sbm" type="submit" value="submit">
+  <br>
+  <textarea name="motasanpham" id="" cols="30" rows="10"></textarea>
+        
+  <select name="city" id="">
+    <option value="1">Hà Nội</option>
+    <option value="2">Tuyên Quang</option>
+    <option value="3">Thái nguyên</option>
+    <option value="4">Hải Phòng</option>
+    <option value="5">Quảng Ninh</option>
+    <option value="6">Vĩnh Phúc</option>
+    <option value="7">Phú Thọ</option>
+    <option value="8">Cà Mau</option>
+    <option value="9">Hà Giang</option>
+    <option value="10">Yên Bái</option>
+
+  </select>
+  <br>
+<input type="date"/>
+<input type="number">
+<input type="email">
+</form>
+</body>
+</html>

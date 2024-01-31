@@ -1,0 +1,25 @@
+form {
+    width: 300px;
+    background-color: rgb(223, 54, 161);
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(57, 151, 150);
+    padding: 10px 10px;
+}
+form #btn {
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+
+}
+form #btn:hover{
+    background-color: rgb(221, 8, 139);
+}
+form #sbm {
+    border: none;
+    border-radius: 5px;
+    background-color: aqua ;
+}
+form #sbm:hover{
+    background-color:rgb(235, 20, 139) ;
+}
